@@ -1,0 +1,149 @@
+body {
+	background-color: #f1f1f1;
+	/*background-image: url('./img/fondo.jpg');
+	background-size: 100% 100%;*/
+}
+.cont {
+	display: flex;
+	justify-content: center;
+}
+header {
+	height: 70px;
+	
+	/*box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);*/
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+	background-color: transparent;
+}
+header a {
+	display: flex;
+	flex-flow: row;
+}
+header img {
+	height: 30px;
+	width: 30px;
+}
+header a p {
+	margin: 0;
+	padding: 0;
+	position: relative;
+	right: 2%;
+	color: white;
+}
+.header-s2 {
+	height: 85vh;
+	width: 100%;
+	position: absolute;
+	top: 0;
+	background-color: steelblue;
+	z-index: -1;
+}
+.container {
+	background-color: red;
+	border-radius: 8px;
+	margin: 5%; 
+	margin-top: 3%;
+	width: 90%;
+	height: auto;
+	max-width: 900px;
+	background-color: white;
+	padding: 20px;
+	box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.2), 0 2px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.cc {
+	padding: 10px;
+	height: 35vh;
+	background-color: #fAfAfA;
+	border-radius: 8px;
+	margin: 10px;
+	margin-top: 15px;
+	border: 1px solid #f1f1f1;
+	overflow: hidden;
+}.cc p, .cc h1 {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}
+.cc h3 {
+	margin-left: 5%;
+}
+.cc .row {
+	display: flex;
+	flex-flow: row;
+	justify-content: space-around;
+}
+#B {
+	margin-top: 5px;
+	background-color: white;
+	border-radius: 4px;
+	padding: 5px;
+	border-radius: 20px;
+	width: 40%;
+	position: relative;
+	right: 10px;
+}
+#colores {
+	background-color: #99ffcc;
+}
+
+#colores h5 {
+	color: white;
+	margin-top: 10px;
+	width: 50%
+	position: relative;
+	left: 10px;
+}
+.row-colors {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.row-colors img  {
+	margin: 20px;
+
+}
+.cont-team {
+	padding: 5px;
+	border-radius: 8px;
+	background-color: white;
+}
+.row-team {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+.row-team p {
+	font-size: 13px;
+}
+hr {
+	padding: 0;
+	margin: 2px;
+}
+.cc h4 {
+	position: relative;
+	left: 5%;
+	top: 3%;
+}
+.cc a {
+	position: absolute;
+	padding: 5px 10px;
+	bottom: 20px;
+	right: 40px;
+	background-color: #ff8533;
+	color:white !important;
+	border-radius: 10px;
+	z-index: 1;
+}
+.info {
+	padding: 15px;
+}
+.info p {
+	margin-top: 20px;
+	color: gray;
+}
+#tipo-carga {
+	color: white;
+}

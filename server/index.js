@@ -31,7 +31,7 @@ parser.on('open', function(){
 
 //imprimiendo en consola los datos recibidos
 parser.on('data', function(data){
-	console.log(data);
+	//console.log(data);
 	io.emit('volts', data);
 });
 

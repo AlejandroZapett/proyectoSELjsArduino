@@ -1,0 +1,26 @@
+header {
+	height: 70px;
+	position: sticky;
+	top: 0;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+	background-color: white;
+	opacity: .9;
+}
+header a {
+	display: flex;
+	flex-flow: row;
+}
+header img {
+	height: 30px;
+	width: 30px;
+}
+header a p {
+	margin: 0;
+	padding: 0;
+	position: relative;
+	right: 2%;
+	color: black;
+}
