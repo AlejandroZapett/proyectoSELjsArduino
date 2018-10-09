@@ -34,13 +34,16 @@ function filtro(data){
 		//es una pequeña carga
 		colores.style.backgroundColor = "#8000ff";
 		tipoCarga.innerHTML = "Pequeña carga";
+		//programar un timeout para retrasar el cambio
 	} else if(parseInt(data) < g ){
 		//es una carga media
 		colores.style.backgroundColor = "red";
 		tipoCarga.innerHTML = "#ff9966";
+		//programar un timeout para retrasar el cambio
 	} else {
 		//es una gran carga
 		colores.style.backgroundColor = "red";
 		tipoCarga.innerHTML = "Gran carga";
+		//programar un timeout para retrasar el cambio
 	}
 }
