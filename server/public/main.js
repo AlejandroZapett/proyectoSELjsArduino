@@ -28,10 +28,16 @@ function filtro(data){
 
 	if(parseInt(data) < p ){
 		//es relajado
+		colores.style.backgroundColor = "#99ffcc";
+		tipoCarga.innerHTML = "Relajado";
 	} else if(parseInt(data) < m ){
 		//es una pequeña carga
+		colores.style.backgroundColor = "#8000ff";
+		tipoCarga.innerHTML = "Pequeña carga";
 	} else if(parseInt(data) < g ){
 		//es una carga media
+		colores.style.backgroundColor = "red";
+		tipoCarga.innerHTML = "#ff9966";
 	} else {
 		//es una gran carga
 		colores.style.backgroundColor = "red";
