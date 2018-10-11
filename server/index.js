@@ -18,7 +18,9 @@ const Serialport = require('serialport');
 const Readline = Serialport.parsers.Readline;
 
 //indicamos el puerto y la velocidad de comunicacion
-const port = new Serialport('/dev/cu.usbserial-A100LBFJ', {
+//para arduino nano el puerto es /dev/cu.usbserial-A100LBFJ
+//para arduino uno el puerto es /dev/cu.usbmodem1421
+const port = new Serialport('/dev/cu.usbmodem1421', {
 	baudRate:9600
 });
 

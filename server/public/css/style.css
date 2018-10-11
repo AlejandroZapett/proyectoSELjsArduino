@@ -128,10 +128,8 @@ hr {
 	top: 3%;
 }
 .cc a {
-	position: absolute;
+	position: relative;
 	padding: 5px 10px;
-	bottom: 20px;
-	right: 40px;
 	background-color: #ff8533;
 	color:white !important;
 	border-radius: 10px;
@@ -146,4 +144,8 @@ hr {
 }
 #tipo-carga {
 	color: white;
+}
+.overflow {
+	height: 15vh;
+	overflow: hidden;
 }
